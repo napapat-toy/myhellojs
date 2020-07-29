@@ -1,0 +1,16 @@
+// let message = document.querySelector('.message')
+
+// message.classList.add('orange-box')
+
+// // message.classList.remove('orange-box')
+// // message.classList.add('green-box')
+
+// message.classList.replace('orange-box','green-box')
+
+let body = document.body
+let themeButton = document.querySelector('.theme-button')
+
+themeButton.addEventListener('click',()=>{
+    //Change theme
+    body.classList.toggle('dark-theme')
+})
